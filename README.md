@@ -22,7 +22,10 @@ Add `text_tooltip` to your `pubspec.yaml` file:
 dependencies:
   flutter:
     sdk: flutter
-  text_tooltip: 
+  text_tooltip:
+    git:
+      url: https://github.com/sonigeez/text_tooltip.git
+      ref: main
 ```
 
 Then, run the following command to install the package:
